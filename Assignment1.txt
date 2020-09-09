@@ -1,0 +1,152 @@
+Q1
+
+date
+Mon Sep  7 09:20:40 PDT 2020
+date +%Y
+2020
+
+date +%y
+20
+
+date +%T
+09:21:07
+
+date +%b
+Sep
+
+date +%B
+September
+
+cal
+
+cal -m1
+
+cal jan
+
+cal 2022
+
+cal 2022 -m1
+=================================================
+Q2
+A
+
+mkdir a b c
+cd a
+touch a.txt b.txt c.txt
+cd b 
+touch a.txt b.txt c.txt
+cd c
+touch a.txt b.txt c.txt
+
+cp -r c a
+
+B
+
+mv b c
+==============================================
+Q3
+cat>file1.txt
+"message" 
+
+cat>file2.txt
+"message" 
+
+cat>file3.txt
+"message" 
+
+cat>file4.txt
+"message" 
+
+cat>file5.txt
+"message" 
+
+touch a.txt b.txt c.txt d.txt e.txt
+
+D
+	rm -r a
+	rm -r b c
+
+============================================
+Q4
+vi fiel.txt
+
+cat -n file.txt
+
+to display number of each content line
+cat -b file.txt
+
+tac file.txt
+
+============================================
+Q5
+
+sort file1.txt
+
+ls -a
+ls -A
+
+ls -r
+ls -t ls-rt
+============================================
+
+
+Q1
+mkdir vipul
+touch a.txt b.txt c.txt d.txt
+
+chmod +rw a.txt b.txt
+
+chmod +w c.txt
+
+cat>d.hs
+#/bin/sh
+
+chmod +x d.sh
+
+=======================================
+Q2
+chmod +x vipul
+================
+Q3
+chmod -x vipul
+chmod -r vipul
+=================
+Q4
+echo $(file.txt)
+
+Q5
+echo>>"HELLO THIS IS MESSAGE" >> file.txt
+===============================
+=========================================
+
+Q1
+mkdir a
+cd a
+mkdir b
+cd b
+mkdir c
+
+touch file.txt
+
+cp c a
+
+cp a b
+========================================
+Q2
+chmod +r c
+cp a c
+
+cd b
+mkdir data
+
+chmod +rw b
+
+cd b
+touch data.txt
+
+mv c copied_dir
+
+chmod +x copied_dir
+
+cd copied_dir
+ls
